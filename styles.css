@@ -1,0 +1,38 @@
+.Step-two, .Step-twoo, .Step-three, .Step-four,.Step-five, .Step-fivee, .finale, .finalee {
+    display:none;
+}
+body {
+    text-align:center;
+    background-color:lightseagreen;
+    
+
+}
+button {
+    display:block;
+    align-self:center;
+    margin:20px;
+    color:darkcyan;
+}
+.chest, .Step-twoo, .Step-fivee, .finalee{
+    width:420px;
+    height:350px;
+    align-self:center;
+    border: dotted darkblue 10px;
+}
+.main {
+    display:flex;
+    flex-direction:column;
+    
+}
+.header {
+    display:flex;
+    flex-direction:column;
+}
+.end {
+    display:flex;
+    flex-direction:column;
+}
+h1, h3 {
+    color:gold;
+    font-family: 'Cardo', serif;
+}
